@@ -1,5 +1,3 @@
-const { text } = require("express")
-
 const fortuneBtn = document.getElementById("eightballBtn")
 
 const getFortune = () => {

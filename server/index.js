@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const { 
-    getFortune,
+    getFortune, 
 } = require('./controller');
 
 app.get("/api/fortune", getFortune);

@@ -57,3 +57,12 @@ footer {
     border-width: 10px;
     margin: 25px;
 }
+.historyBox {
+    border: solid;
+    padding: 6px;
+}
+.historyCard {
+    border: 1px solid black;
+     padding: 20px;
+    margin: 20px;
+}

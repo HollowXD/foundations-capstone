@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Capstone</title>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <header>
     <h1 class="main-title">THE ALL SEEING 8 BALL</h1>
 </header>
-<body>
-    <div class="container">
-        <img class="eight-ball" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Magic_eight_ball.png"/>
-        <button class="btn" id="eightballBtn"></button>
-    </div>
-    <div>
-        <input class="questionbox" type="text" placeholder="Type your question here"/>
-    </div>
+<main>
+    <body>
+        <div class="container">
+            <img class="eight-ball" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Magic_eight_ball.png"/>
+            <button class="btn" id="eightballBtn" disabled></button>
+        </div>
+        <div>
+            <input class="questionbox" id="inputBox" type="text" placeholder="Type your question here"/>
+        </div>
+    </body>
+    <footer>
+        <h1>History</h1>
+        <section id="recordings" class="historyBox"></section>
+    </footer>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
-</body>
-<footer>
-    <h1>History</h1>
-</footer>
+</main>
 </html>

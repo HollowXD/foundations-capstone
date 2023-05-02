@@ -21,7 +21,7 @@ const getFortune = () => {
     });
     axios 
         .post("http://localhost:4000/api/fortune/", body)
-        then(res => {
+        then(() => {
             var results = document.createElement("li");
             results.textContent = data;
             addItem()
